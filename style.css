@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap');
 
 :root{
-    --corPrimaria: #2c3639;
+    --corPrimaria: #1a1a1a;
     --corSecundaria: #f6f6f6;
-    --corTerciaria: #19A7CE;
+    --corTerciaria: #b1976b;
     --corHover: #3f4e4f;
     --fontePrimaria: 'IBM Plex Mono', monospace;
     --fonteSecundaria: 'Montserrat', sans-serif;
