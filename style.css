@@ -2,7 +2,7 @@
 :root{
     --corPrimaria: #1a1a1a;
     --corSecundaria: #f6f6f6;
-    --corTerciaria: #b1976b;
+    --corTerciaria: #6dcad1;
     --corHover: #3f4e4f;
     --fontePrimaria: 'Krona One', sans-serif;
 }
@@ -71,8 +71,9 @@ body{
     font-family: var(--fontePrimaria);
 }
 .apresentacao__links{
+    width: 50rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     gap: 32px;
     justify-content: space-between;
@@ -104,11 +105,21 @@ body{
 }
 
 .imagemPrincipal{
-    width: 50%;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    width: 20rem;
+    left: 70rem;
+    top: 5rem;
+    border: 2px solid var(--corTerciaria);
+    border-radius: 50%;
 }
 
 .rodape{
+    position: relative;
+    top: 10.7rem;
     padding:24px;
+    width: 100%;
     color: var(--corHover);
     background-color: var(--corTerciaria);
     text-align: center;
@@ -116,6 +127,19 @@ body{
     font-size: 1.25rem;
     font-weight: 200;
     justify-content: center;
+}
+.foto{
+    margin: 0%;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30rem;
+    height: auto;
+    position: fixed;
+    left: 70rem;
+    border-radius: 2rem;
+    border: 2px solid#b1976b;
 }
 @media(max-width: 1024px){
     .top{
